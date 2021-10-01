@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import Pizza
+from .models import Pizza, Pasta
+
 
 # / Menu
 def index(request):
@@ -10,6 +11,8 @@ def index(request):
     return HttpResponse(f"Les pizzas: {pizzas_names_and_prices_str}")'''
 
     pizzas = Pizza.objects.all().order_by('prix')
+    pasta = Pasta.objects.all().order_by('prix')
 
-
-    return render(request, 'menu/index.html', {'pizzas': pizzas})
+    return render(request, 'menu/index.html', {'pizzas': pizzas,
+                                               'pasta': pasta,
+                                               })

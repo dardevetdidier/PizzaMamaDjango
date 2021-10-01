@@ -22,8 +22,7 @@ h1 {
 }
 
 .menu_title {
-    margin-top: 45px;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .menu_list{
@@ -31,7 +30,7 @@ h1 {
 }
 
 .menu_list_item {
-    margin: 30px 0;
+    margin: 20px 0 40px 0;
     color: white;
 }
 
@@ -39,7 +38,7 @@ h1 {
     font-weight: bold;
     font-size: 20px;
     display: inline-block;
-    width: 350px;
+    width: 420px;
 }
 
 .menu_list_price {
@@ -56,7 +55,7 @@ h1 {
     font-size: 14px;
     margin-top: 4px;
     display: block;
-    width: 330px;
+    width: 370px;
 }
 
 .menu_list_vegetarienne {

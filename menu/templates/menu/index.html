@@ -8,7 +8,9 @@
 
 </head>
 <body>
+
     <a href="{% url 'main:index' %}"><img src="{% static 'menu/images/small_logo.png' %}" alt="logo" id="logo"></a>
+
     <div class="menu_title">
         <h1>Les pizzas</h1>
     </div>
@@ -20,6 +22,23 @@
                 <span class="menu_list_price">{{ pizza.prix | floatformat:2}}€</span>
                 <span class="menu_list_ingredients">{{ pizza.ingredients }}</span>
                 {% if pizza.vegetarienne %}
+                    <span class="menu_list_vegetarienne">VEGETARIENNE</span>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="menu_title">
+        <h1>Les pâtes</h1>
+    </div>
+
+    <div class="menu_list">
+        {% for pasta in pasta %}
+            <div class="menu_list_item">
+                <span class="menu_list_title">{{ pasta.nom}}</span>
+                <span class="menu_list_price">{{ pasta.prix | floatformat:2}}€</span>
+                <span class="menu_list_ingredients">{{ pasta.ingredients }}</span>
+                {% if pasta.vegetarienne %}
                     <span class="menu_list_vegetarienne">VEGETARIENNE</span>
                 {% endif %}
             </div>
