@@ -1,0 +1,42 @@
+{% load static %}
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'contact/style.css' %}">
+    <title>Qui sommes-nous ?</title>
+</head>
+<body>
+
+    <a href="{% url 'main:index' %}"><img src="{% static 'menu/images/small_logo.png' %}" alt="logo" id="logo"></a>
+
+    <div class="presentation">
+        <p>Pizza Mama est une maison familiale dont l'héritage et la transmission du savoir-faire
+        traditionnel a forgé notre passion du bon goût italien.
+        Nous vous accueillons dans un cadre chaleureux et intimiste. Pizza Mama c'est l'Italie près de chez vous.</p>
+        <div class="presentation_items">
+            <h3>Réservation</h3>
+            <p>Tél : 06.02.00.21.21</p>
+
+            <h3>Horaires</h3>
+            <p>Ouvert du lundi au samedi de 11h30 à 15h et de 19h à 22h30</p>
+
+            <h3>Nous trouver</h3>
+            <p>25, rue du four à bois</p>
+            <p>33000 Bordeaux</p>
+        </div>
+
+        <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8002.2872022117335!2d-0.5825350039702445!3d44.83713162083863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527e9bb2843b9%3A0x3d4d1dfaf76a4372!2s25%20Rue%20Jean%20Fleuret%2C%2033000%20Bordeaux!5e0!3m2!1sfr!2sfr!4v1633186714776!5m2!1sfr!2sfr"
+                width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

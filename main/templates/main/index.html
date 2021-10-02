@@ -10,7 +10,7 @@
 <body>
     <div class="centered">
         <img src="{% static 'main/images/main_logo.png' %}" alt="logo accueil">
-        <span class="contact"><a href="#">Nous contacter</a></span>
+        <span class="contact"><a href="{% url 'contact:index' %}">Nous contacter</a></span>
         <a href="{% url 'menu:index' %}" class="btn btn-light btn-lg" role="button" aria-pressed="true">Découvrez notre Menu</a>
     </div>
 
