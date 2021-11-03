@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background: url("images/main_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial, serif;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.contact {
+    display: block;
+    padding: 5px 20px;
+    margin-top: 10px;
+
+}
+
+.contact a {
+    font-size: 14px;
+    color: #c9c9c9;
+    font-style: italic;
+}
+.contact a:hover {
+    text-decoration: None;
+    font-style: normal;
+    color: white;
+}
+
+.btn-light {
+    display: block;
+    text-align: center;
+    margin: 30px 30px;
+    background-color: rgba(247, 247, 247, 0.5);
+}
+.btn-light:hover {
+    color: white;
+    background-color: transparent;
+}
+
+
