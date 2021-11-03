@@ -29,7 +29,7 @@ SECRET_KEY = "gv!7&a4s63f%_4@in8q(sozq28s6kgzw-y63x8cn@*i7p-#=(w"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pizzamamapp.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'pizzamamapp.herokuapp.com']
 
 # Application definition
 
