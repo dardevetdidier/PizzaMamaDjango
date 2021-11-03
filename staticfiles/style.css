@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/concept-pizzeria.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial, serif;
+
+}
+
+#logo {
+    margin: 25px 0 25px 35px;
+}
+
+.presentation {
+    display: block;
+    width: 50vw;
+    color: white;
+}
+
+.presentation_items {
+    display: inline-block;
+    margin-top: 35px;
+
+}
+
+h3 {
+    background-color: #DD7835;
+    display: inline-block;
+    width: 250px;
+    padding: 8px 35px;
+    margin: 35px 0 15px 0;
+}
+
+p {
+    margin-left: 35px;
+    margin-bottom: 0;
+}
+
+iframe {
+    margin: 50px 35px;
+}
+
+.map {
+    display: inline-block;
+}
